@@ -13,6 +13,10 @@
 		FDF3061A2608914A00473AA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF306182608914A00473AA7 /* Main.storyboard */; };
 		FDF3061C2608914B00473AA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDF3061B2608914B00473AA7 /* Assets.xcassets */; };
 		FDF3061F2608914B00473AA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF3061D2608914B00473AA7 /* LaunchScreen.storyboard */; };
+		FDF3062B260894C400473AA7 /* cat2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = FDF30628260894C400473AA7 /* cat2.JPG */; };
+		FDF3062C260894C400473AA7 /* cat3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = FDF30629260894C400473AA7 /* cat3.JPG */; };
+		FDF3062D260894C400473AA7 /* cat1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = FDF3062A260894C400473AA7 /* cat1.JPG */; };
+		FDF306302608966A00473AA7 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF3062F2608966A00473AA7 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		FDF3061B2608914B00473AA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDF3061E2608914B00473AA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDF306202608914B00473AA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDF30628260894C400473AA7 /* cat2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat2.JPG; sourceTree = "<group>"; };
+		FDF30629260894C400473AA7 /* cat3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat3.JPG; sourceTree = "<group>"; };
+		FDF3062A260894C400473AA7 /* cat1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat1.JPG; sourceTree = "<group>"; };
+		FDF3062F2608966A00473AA7 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +67,11 @@
 				FDF306122608914A00473AA7 /* AppDelegate.swift */,
 				FDF306142608914A00473AA7 /* SceneDelegate.swift */,
 				FDF306162608914A00473AA7 /* ViewController.swift */,
+				FDF3062F2608966A00473AA7 /* ResultViewController.swift */,
 				FDF306182608914A00473AA7 /* Main.storyboard */,
+				FDF3062A260894C400473AA7 /* cat1.JPG */,
+				FDF30628260894C400473AA7 /* cat2.JPG */,
+				FDF30629260894C400473AA7 /* cat3.JPG */,
 				FDF3061B2608914B00473AA7 /* Assets.xcassets */,
 				FDF3061D2608914B00473AA7 /* LaunchScreen.storyboard */,
 				FDF306202608914B00473AA7 /* Info.plist */,
@@ -124,8 +136,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDF3062D260894C400473AA7 /* cat1.JPG in Resources */,
 				FDF3061F2608914B00473AA7 /* LaunchScreen.storyboard in Resources */,
+				FDF3062B260894C400473AA7 /* cat2.JPG in Resources */,
 				FDF3061C2608914B00473AA7 /* Assets.xcassets in Resources */,
+				FDF3062C260894C400473AA7 /* cat3.JPG in Resources */,
 				FDF3061A2608914A00473AA7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +155,7 @@
 				FDF306172608914A00473AA7 /* ViewController.swift in Sources */,
 				FDF306132608914A00473AA7 /* AppDelegate.swift in Sources */,
 				FDF306152608914A00473AA7 /* SceneDelegate.swift in Sources */,
+				FDF306302608966A00473AA7 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
